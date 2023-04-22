@@ -74,23 +74,24 @@ button:hover{
    
     margin-left: 30px;
     margin-right: 30px;
-    
+    background-color:darkgrey;
     display:flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
     justify-content: space-between;
-    
+    margin-top: 10px;
     
 
 }
 .sec2{
+    margin: 10px 30px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
     justify-content: space-evenly;
-    
+    background-color: darkgrey;
 
 }
 
@@ -99,7 +100,7 @@ button:hover{
     flex-direction: column;
     display: flex;
     align-items: center;
-    
+    margin: 10px 10px;
     flex-wrap: wrap;
     
     align-content: center;
@@ -131,31 +132,50 @@ button:hover{
     justify-content: center;
     
 }
+.subti{
+    color: white;
+    
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid white;
+    
+}  
 
 .back{
     display: flex;
-    flex-direction: column;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-bottom: 20px;
     justify-content: center;
     align-items: center;
+    overflow-x: scroll;
+    border: 1px solid white;
+    padding-top: 20px;
+    padding-left: 20px;
     
+
+
 }
 .pict{
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     justify-content: space-between;
     border: 2px solid white;
+    margin: 10px 10px;
+    display: flex
     
 }
 .pict img{
-    width: 1200px;
+    width: 300px;
+    justify-content: center;
+    
 }
 
 .locations{
     margin-top: 80px;
     display: flex;
-    height: 500px;
+    height: 800px;
     align-items: center;
     background-image: url("./Picture13.jpg");
     opacity: 100;
@@ -202,9 +222,25 @@ button:hover{
     opacity: 1;
 }
 .loc{
-    margin-right: 40px;
+    margin-right: 5px;
+}
+.subfoot{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    color: white;
+    align-content: center;
+    text-align: center;
+    line-height: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: solid;
+    text-align: center;
+    
+   
 }
 .footerr{
+    margin-top: 300px;
     flex-shrink: 2;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -213,9 +249,18 @@ button:hover{
     color: white;
     align-items: center;
     text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
 
 } 
 .foot{
     color: gray;
     margin-left: 15px;
+}
+figure img{
+    margin-top: 100px;
+    width: 390px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
 }
