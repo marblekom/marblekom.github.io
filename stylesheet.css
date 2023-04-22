@@ -264,3 +264,7 @@ figure img{
     align-items: center;
     border: 1px solid white;
 }
+figcaption{
+    justify-content: center;
+    text-align: center;
+}
