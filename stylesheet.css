@@ -11,7 +11,7 @@ body{
     opacity: 0.9;
     display: flex;
     border-bottom: 1px solid seashell;
-    height: 100px;
+    height: 120px;
     align-items: center;
     justify-content: space-between;
     
@@ -23,6 +23,7 @@ body{
     padding-top: 9px;
     padding-bottom:10px;
     text-decoration: wavy;
+    justify-content: center;
     
 }
 
@@ -55,6 +56,7 @@ button:hover{
 .banner{
     height: 700px;
     background-image: url(./DSC_1256.JPG);
+   
     margin-top: 2px;
     display: flex;
     align-items: center;
@@ -78,8 +80,8 @@ button:hover{
     display:flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    
     margin-top: 10px;
     
 
@@ -114,11 +116,14 @@ button:hover{
 
 }
  .pic img, .pic1 img {
+    
+    margin: 20px 20px;
     width: 300px;
     height: 200px;
     justify-content: center;
     align-items: center;
     align-content: center;
+    border: 2px solid white;
     
  }
 
@@ -169,6 +174,7 @@ button:hover{
 .pict img{
     width: 300px;
     justify-content: center;
+    border: 1px solid white;
     
 }
 
@@ -236,8 +242,9 @@ button:hover{
     margin-right: 10px;
     text-decoration: solid;
     text-align: center;
+    word-spacing: normal;
+    word-wrap: normal;
     
-   
 }
 .footerr{
     margin-top: 300px;
@@ -251,6 +258,7 @@ button:hover{
     text-align: center;
     margin-left: 10px;
     margin-right: 10px;
+    justify-content: center;
 
 } 
 .foot{
@@ -263,8 +271,10 @@ figure img{
     justify-content: center;
     align-items: center;
     border: 1px solid white;
+    align-content: center;
 }
 figcaption{
+    align-items: center;
     justify-content: center;
     text-align: center;
 }
