@@ -335,6 +335,10 @@ button:hover{
     
 }
 
+.figure{
+    width:350px;
+}
+
 .figure img{
     margin-top: 100px;
     width: 350px;
