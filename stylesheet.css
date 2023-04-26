@@ -336,7 +336,10 @@ button:hover{
 }
 
 .figure{
-    width:350px;
+    
+    align-items: center;
+    justify-content: center;
+    
 }
 
 .figure img{
