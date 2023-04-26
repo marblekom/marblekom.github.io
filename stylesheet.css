@@ -26,6 +26,16 @@ body{
     justify-content: center;
     
 }
+ul li a{
+    display: inline-flex;
+    justify-content: center;
+    justify-content: space-between;
+    color: white;
+    text-align: center;
+    padding-right: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
 
 ul{
     justify-content: space-between;
@@ -324,7 +334,8 @@ button:hover{
     color: gray;
     
 }
-figure img{
+
+.figure img{
     margin-top: 100px;
     width: 350px;
     justify-content: center;
