@@ -349,6 +349,7 @@ button:hover{
     align-items: center;
     border: 1px solid white;
     align-content: center;
+    margin-right:20px;
 }
 figcaption{
     align-items: center;
