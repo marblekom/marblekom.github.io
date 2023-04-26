@@ -3,7 +3,7 @@ body{
     
 }
 .header {
-    
+    position:fixed;
     font-family: Helvetica;
     font-size: 22px;
     color:white;
