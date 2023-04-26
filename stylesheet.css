@@ -139,8 +139,8 @@ button:hover{
 }
 .subti{
     color: white;
-    
-    flex-direction: column;
+    margin-top: 120px;
+    text-align: center;
     justify-content: center;
     border: 1px solid white;
     
@@ -149,12 +149,12 @@ button:hover{
 .back{
     display: flex;
     flex-direction: row;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 20px;
     justify-content: center;
     align-items: center;
     overflow-x: scroll;
-    border: 1px solid white;
+    flex-wrap: wrap;
     padding-top: 20px;
     padding-left: 20px;
     
@@ -167,15 +167,67 @@ button:hover{
     align-items: center;
     justify-content: space-between;
     border: 2px solid white;
-    margin: 10px 10px;
-    display: flex
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    
     
 }
 .pict img{
-    width: 300px;
+    width: 350px;
     justify-content: center;
     border: 1px solid white;
     
+}
+.projectst{
+    margin-top: 50px;
+    color: white;
+    font-size: 20px;
+    font-family: Times 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    border: 3px solid white;
+    background-color: darkgray;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.projectst h2{
+    text-decoration: underline;
+}
+.projects{
+    display: flex;
+    margin: 20px;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow-x: scroll;
+    color: white;
+    align-items: center;
+    text-align: center;
+    border: 2px solid white;
+    background-color: darkgray;
+}
+.pro img{
+    width: 360px;
+    justify-content: space-around;
+    margin: 10px 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+
+}
+.pro{
+    justify-content: left;
+    
+    
+
+}
+.pro1 h4{
+    
+    color: white;
+    
+
 }
 
 .locations{
@@ -245,6 +297,13 @@ button:hover{
     word-spacing: normal;
     word-wrap: normal;
     
+    
+}
+.subfoot p{
+    text-align: justify;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
 }
 .footerr{
     margin-top: 300px;
@@ -256,18 +315,18 @@ button:hover{
     color: white;
     align-items: center;
     text-align: center;
-    margin-left: 10px;
-    margin-right: 10px;
+    
+    
     justify-content: center;
 
 } 
 .foot{
     color: gray;
-    margin-left: 15px;
+    
 }
 figure img{
     margin-top: 100px;
-    width: 390px;
+    width: 350px;
     justify-content: center;
     align-items: center;
     border: 1px solid white;
