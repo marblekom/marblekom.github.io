@@ -330,6 +330,10 @@ button:hover{
     justify-content: center;
 
 } 
+
+.footerr a{
+    color: white;
+}
 .foot{
     color: gray;
     
