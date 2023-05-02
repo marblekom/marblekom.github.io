@@ -171,6 +171,11 @@ button:hover{
 
 
 }
+.back h2{
+    flex-direction: column;
+    color: white;
+    margin-right: 20px;
+}
 .pict{
     flex-wrap: wrap;
     justify-content: center;
