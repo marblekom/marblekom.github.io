@@ -212,6 +212,9 @@ button:hover{
 .projectst h2{
     text-decoration: underline;
 }
+.projects h3{
+    text-decoration: underline;
+}
 .projects{
     display: flex;
     margin: 20px 0px;
