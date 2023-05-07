@@ -55,13 +55,14 @@ ul{
     cursor: pointer;
     color: gray;
 }
+
 button{
-    border: 1px solid white;
+    
     background-color: black;
 }
 button:hover{
     color: antiquewhite;
-
+    cursor: pointer;
 }
 .banner1{
     
