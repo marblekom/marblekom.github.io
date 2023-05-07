@@ -306,6 +306,8 @@ button:hover{
     height: 800px;
     align-items: center;
     background-image: url("./Picture13.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
     opacity: 100;
     margin-left: 30px;
     margin-right: 30px;
