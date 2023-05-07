@@ -63,6 +63,46 @@ button:hover{
     color: antiquewhite;
 
 }
+.banner1{
+    
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0px ;
+    align-content: center;
+    width: auto;
+    overflow: hidden;
+    align-items: center;
+    
+    
+   
+}
+.a img , .b img , .c img{
+    width: 95%;
+    
+    justify-content: center;
+}
+.a{
+   display: flex;
+   width: 33%;
+   justify-content: center;
+   
+   
+
+}
+.b{
+  display: flex;
+  width: 33%;
+
+  justify-content: center;
+  
+}
+.c{
+    display: flex;
+    width: 33%;
+
+    justify-content: center;
+}
+
 .videod{
     
     display: flex;
