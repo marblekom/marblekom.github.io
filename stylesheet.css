@@ -63,6 +63,14 @@ button:hover{
     color: antiquewhite;
 
 }
+.videod{
+    
+    display: flex;
+    align-content: center;
+    align-items: center;
+    margin: 10px 10px;
+   
+}
 .banner{
     height: 600px;
     background-image: url(./eikona6.jpg);
