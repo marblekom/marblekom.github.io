@@ -400,20 +400,21 @@ button:hover{
 }
 
 .figure{
-    
+    display: flex;
     align-items: center;
     justify-content: center;
     
 }
 
 .figure img{
+    display: flex;
     margin-top: 100px;
     width: 350px;
     justify-content: center;
     align-items: center;
     border: 1px solid white;
     align-content: center;
-    margin-right:50px;
+    
 }
 figcaption{
     align-items: center;
