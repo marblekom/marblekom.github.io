@@ -164,9 +164,9 @@ header .nav .caret {
 }	
 
 @media (max-width:500px){
-	.yolo.img { width: 100%; height: 100% ;}
+	#paper { width: 100%; height: 100% ;}
 }
-*/
+
 .dropdown-menu  {
     box-shadow: none;
     border-radius: 0;
