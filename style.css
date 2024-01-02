@@ -164,6 +164,7 @@ header .nav .caret {
 }	
 
 @media (max-width:500px){
+	#logot { font-size:18px;},
 	#paper { width: 100%; height: 100% ;}
 }
 
