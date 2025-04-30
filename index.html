@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>Marble Komninon LTD </title>
+<title data-i18n="titlee">Marble Komninon LTD </title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta name="description" content="" />
 <meta name="author" content="pirrnik" />
@@ -25,20 +25,27 @@
         <div id="naved" style=" background-color:black; border:1px solid black;" class="navbar navbar-default navbar-static-top ">
             <div  class="container">
                 <div  class="navbar-header">
+                    
                     <button  style="background-color:black; margin: top 25px;" type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
+                        
                     </button>
-                    <a style=" margin-top:0px; margin-bottom:20px;" class="navbar-brand" href="index.html"><h2  style="color:white;" id="logot" ><i><strong >Marble Komninon LTD</strong></i></h2></a>
+                    <a style=" margin-top:0px; margin-bottom:20px;" class="navbar-brand" href="index.html"><h2  style="color:white;" id="logot" ><i><strong data-i18n="title2">Marble Komninon LTD</strong></i></h2></a>
                 </div>
                 <div class="navbar-collapse collapse ">
                     <ul style="color:aliceblue;" class="nav navbar-nav">
-                        <li  class="active"><a  href="index.html" style="color: white;">Home</a></li> 
-						<li ><a  href="products.html">Products</a></li>
-						<li><a href="history.html">History</a></li>
-						
-                      
+                        <li  class="active"><a  href="index.html" style="color: white;" id="home" data-i18n="home_">Home</a></li> 
+						<li ><a  href="products.html" id="products" data-i18n="products_">Products</a></li>
+						<li><a href="history.html" id="history" data-i18n="history_">History</a></li>
+                        <li style="text-align:center;"> <a ><label for="languageSelector" class="form-label fw-bold" data-i18n="lang" >Language:</label>
+                            <select id="languageSelector" class="form-select w-auto">
+                            <option value="en" style="background-color: black;">English</option>
+                            <option value="el"  style="background-color: black;">Ελληνικά</option>
+                            <option value="de" style="background-color: black;">Deutsch</option>
+                            </select></a></li>
+                        
                         
                         
                     </ul>
@@ -55,22 +62,22 @@
               <li style="text-align: center;">
                 <img  src="./Picture4.jpg" alt="block of marble" style="opacity:0.9; max-height:700px;" />
                 <div class="flex-caption" >
-                    <h3 style="color: black;"> Nestos Marble</h3> 
-					<p style="color: black;">From Nestos Quarry.</p>  
+                    <h3 style="color: black;" data-i18n="Nestosm" > Nestos Marble</h3> 
+					<p style="color: black; " data-i18n="Nestosq">From Nestos Quarry.</p>  
                 </div>
               </li>
               <li style="text-align:center;">
                 <img src="./quarry shot.jpg" alt="quarry shot" style="max-height:700px; ">
                 <div class="flex-caption">
-                    <h2 style="color: black;" >Nestos Quarry </h2>
-                    <p style="color: black;"> Quarry view</p>
+                    <h2 style="color: black;" data-i18n="Nestosqq" >Nestos Quarry </h2>
+                    <p style="color: black;" data-i18n="Quarryv"> Quarry view</p>
                 </div>
               </li>
               <li style="text-align:center;">
                   <img src="./Picture2.jpg" alt="levels of marble" style="max-height:700px;  ">
                   <div class="flex-caption">
-                    <h2 style="color: black;">Nestos marble </h2>
-                    <p style="color:black;">From Nestos Quarry</p>
+                    <h2 style="color: black;" data-i18n="Nestosm">Nestos marble </h2>
+                    <p style="color:black;" data-i18n="Nestosq">From Nestos Quarry</p>
                   </div>
               </li>
             </ul>
@@ -78,59 +85,63 @@
 	
  
 	</section>
-	
+	<div>
 	<div  style=" border: 1px solid black;  background-color:black;   " class="content_white">
-      <h2 style="color:white;">Its all about precious Stones</h2>
-      <p style="text-align: justify; margin-left:20px;margin-right:20px; color:aliceblue;   "><strong>Welcome to our premier commercial website, where excellence meets elegance in the realm of white marble stone. At the heart of our mission lies a commitment to redefine spaces with timeless beauty, showcasing the unparalleled allure of white marble. As industry pioneers, we strive to be the vanguard in providing high-quality, ethically sourced marble products that elevate interiors and exteriors alike. Our dedication to craftsmanship and sustainability intertwines seamlessly, ensuring that each slab not only epitomizes sophistication but also reflects our environmental responsibility. Whether you seek opulent countertops, luxurious flooring, or bespoke architectural elements, our website stands as a curated gateway to a world where the enduring allure of white marble transforms spaces into enduring works of art. Embrace the epitome of luxury with our exceptional white marble collection, where tradition meets innovation, and natural beauty is carved to perfection.</strong></p>
+      <h2 style="color:white;" data-i18n="Precious">Its all about precious Stones</h2>
+      <p style="text-align:justify; margin-left:20px;margin-right:20px; color:aliceblue; text-wrap-mode:wrap;  " data-i18n="short"><strong>Welcome to our premier commercial website, where excellence meets elegance in the realm of white marble stone. At the heart of our mission lies a commitment to redefine spaces with timeless beauty, showcasing the unparalleled allure of white marble. As industry pioneers, we strive to be the vanguard in providing high-quality, ethically sourced marble products that elevate interiors and exteriors alike. Our dedication to craftsmanship and sustainability intertwines seamlessly, ensuring that each slab not only epitomizes sophistication but also reflects our environmental responsibility. Whether you seek opulent countertops, luxurious flooring, or bespoke architectural elements, our website stands as a curated gateway to a world where the enduring allure of white marble transforms spaces into enduring works of art. Embrace the epitome of luxury with our exceptional white marble collection, where tradition meets innovation, and natural beauty is carved to perfection.</strong></p>
    </div>
+
+  </div>
  <div style="background-color:black; " class="featured_content" >
    <div class="container" >
     <div  class="row text-center" >
       <div  class="col-md-3 feature_grid1" id="giwta" style="border: 1px white;"> <!--<i class="fa fa-trophy fa-3x"></i>-->
 		<img style="width: 200px ; height: 150px;" src="./DSC_1352.JPG" alt="">
-        <h3 ><a style="color: white; " href="products.html"><strong>White with stripes</strong> </a></h3>
-        <p>Very good and elegant choice for different usages including bathrooms,doorsteps etc.</p>
-        <a href="products.html" class="feature_btn">More</a> </div>
+        <h3 ><a style="color: white; " href="products.html"><strong data-i18n="whites">White with stripes</strong> </a></h3>
+        <p data-i18n="whitesp">Very good and elegant choice for different usages including bathrooms,doorsteps etc.</p>
+        <a href="products.html" class="feature_btn" data-i18n="more">More</a> </div>
 		<br>
       <div  class="col-md-3 feature_grid1" style="border: 1px white;"> <!--<i class="fa fa-picture-o fa-3x"></i>-->
 		<img style="width: 200px ; height: 150px;" src="./DSC_1370.JPG" alt="">
         <div id="deuterodiv"> </div>
-		<h3><a style="color: white; " href="products.html">Nestos Extra white</a></h3>
-        <p>Another great choice of marble especially for the floors and kitchen.</p>
-        <a href="products.html" class="feature_btn">More</a> </div>
+		<h3><a style="color: white; " href="products.html" data-i18n="nestosx">Nestos Extra white</a></h3>
+        <p data-i18n="nestosxp">Another great choice of marble especially for the floors and kitchen.</p>
+        <a href="products.html" class="feature_btn" data-i18n="more">More</a> </div>
 		<br>
       <div  class="col-md-3 feature_grid1" style="border: 1px white;"> <!--<i class="fa fa-flask fa-3x"></i>-->
 		<img style="width: 200px ; height: 150px;" src="./Picture13.jpg" alt="">
         <div id="tritodiv"> </div>
-		<h3><a style="color: white; " href="history.html">Second class marble</a></h3>
-        <p>With that marble you have a better price by it can be used also for many usages.</p>
-        <a href="products.html" class="feature_btn">More</a> 
+		<h3><a style="color: white; " href="history.html" data-i18n="secondc">Second class marble</a></h3>
+        <p data-i18n="secondcp">With that marble you have a better price by it can be used also for many usages.</p>
+        <a href="products.html" class="feature_btn" data-i18n="more">More</a> 
       </div>
 		<br>
       <div  class="col-md-3 feature_grid1" style="border: 1px white;"> <!--<i class="fa fa-user fa-3x"></i>-->
         <img style="width: 200px ; height: 150px;" src="./DSC_1342.JPG" alt="">
 		<div id="tetartodiv"> </div>
-		<h3><a style="color: white; " href="history.html">Other Category</a></h3>
-        <p>It depends on the customer and the preferences.</p>
-        <a href="products.html" class="feature_btn">More</a> 
+		<h3><a style="color: white; " href="history.html" data-i18n="other">Other Category</a></h3>
+        <p data-i18n="otherp">It depends on the customer and the preferences.</p>
+        <a href="products.html" class="feature_btn" data-i18n="more">More</a> 
       </div>
       <br>
       <div  class="col-md-3 feature_grid1" style="border: 1px white;"> <!--<i class="fa fa-flask fa-3x"></i>-->
 		<img style="width: 200px ; height: 150px;" src="./Picture13.jpg" alt="">
         <div id="tritodiv"> </div>
-		<h3><a style="color: white; " href="products.html">White Nestos marble</a></h3>
-        <p>Pure white Nestos marble.</p>
-        <a href="products.html" class="feature_btn">More</a> 
+		<h3><a style="color: white; " href="products.html" data-i18n="whitenes">White Nestos marble</a></h3>
+        <p data-i18n="whitenesp">Pure white Nestos marble.</p>
+        <a href="products.html" class="feature_btn" data-i18n="more">More</a> 
       </div>
 		
      </div>
     </div>
    </div>
- 	<div class="column1" style="justify-content: center; padding-bottom: 15px;">
+
+   <div class="column1" style="justify-content: center; padding-bottom: 15px;">
     <!--<iframe width="100%" height="100%" src="./My Video1.mp4"  muted loop autoplay="autoplay"   type="video/mp4" ></iframe>-->
     <video width="50%" height="50%" src="./My Video1.mp4"  autoplay="autoplay" loop="true" muted defaultMuted playsinline  oncontextmenu="false"  preload="auto"  ></video> 
 
   </div>
+ 
 	<section id="content">
 	
 	
@@ -140,13 +151,13 @@
 							<div class="col-md-8">
 								
 								<div class="block-heading-two">
-									<h3><span>Why Choose Us?</span></h3>
+									<h3><span data-i18n="Description">Why Choose Us?</span></h3>
 								  </div>
-								  <p style="text-align: justify;">Choosing our company is an investment in excellence, innovation, and unparalleled service. We stand out in the market for our unwavering commitment to customer satisfaction, driven by a passion for delivering quality products and services. Our team of dedicated professionals combines expertise with creativity, ensuring that every solution we provide is tailored to meet the unique needs of our clients. With a track record of success and a reputation for reliability, we prioritize transparency, communication, and collaboration throughout every project. Our company's forward-thinking approach embraces cutting-edge technologies and industry best practices, positioning us as a leader in our field. By choosing us, you're selecting a partner who not only understands your goals but also goes above and beyond to exceed your expectations, making your success our top priority.</p>
+								  <p style="text-align: justify;" data-i18n="Descriptionp">Choosing our company is an investment in excellence, innovation, and unparalleled service. We stand out in the market for our unwavering commitment to customer satisfaction, driven by a passion for delivering quality products and services. Our team of dedicated professionals combines expertise with creativity, ensuring that every solution we provide is tailored to meet the unique needs of our clients. With a track record of success and a reputation for reliability, we prioritize transparency, communication, and collaboration throughout every project. Our company's forward-thinking approach embraces cutting-edge technologies and industry best practices, positioning us as a leader in our field. By choosing us, you're selecting a partner who not only understands your goals but also goes above and beyond to exceed your expectations, making your success our top priority.</p>
 								</div>
 							<div class="col-md-4">
 								<div class="block-heading-two" style="border: 2px black;">
-									<h2><span><strong>Projects we have worked</strong></span></h2>
+									<h2><span><strong data-i18n="projects">Projects we have worked</strong></span></h2>
 								</div>		
 								
 								<div class="panel-group" id="accordion-alt3">
@@ -154,8 +165,8 @@
 									
 									 <div class="panel-heading">
 										<h4 class="panel-title">
-										  <a data-toggle="collapse" data-parent="#accordion-alt3" href="#collapseOne-alt3">
-											<i class="fa fa-angle-right"></i> <strong style="color:grey;">Thessaloniki - Leoforos Nikis, Building</strong>
+										  <a data-toggle="collapse" data-parent="#accordion-alt3" href="#collapseOne-alt3" >
+											<i class="fa fa-angle-right"></i> <strong style="color:grey;" data-i18n="Thessalonikb">Thessaloniki - Leoforos Nikis, Building</strong>
 										  </a>
 										</h4>
 									 </div>
@@ -169,8 +180,8 @@
 								  <div class="panel">
 									 <div class="panel-heading">
 										<h4 class="panel-title">
-										  <a data-toggle="collapse" data-parent="#accordion-alt3" href="#collapseTwo-alt3">
-											<i class="fa fa-angle-right"></i> <strong style="color:grey;">Chalkidiki - Gerakina beach Hotel </strong>
+										  <a data-toggle="collapse" data-parent="#accordion-alt3" href="#collapseTwo-alt3" >
+											<i class="fa fa-angle-right"></i> <strong style="color:grey;" data-i18n="gerakinabh">Chalkidiki - Gerakina beach HotelC </strong>
 										  </a>
 										</h4>
 									 </div>
@@ -184,7 +195,7 @@
 									 <div class="panel-heading">
 										<h4 class="panel-title">
 										  <a data-toggle="collapse" data-parent="#accordion-alt3" href="#collapseThree-alt3">
-											<i class="fa fa-angle-right"></i> <strong style="color:grey;"> Floor with Nestos stripes </strong>
+											<i class="fa fa-angle-right"></i> <strong style="color:grey;" data-i18n="floornestoss"> Floor with Nestos stripes </strong>
 									      </a>
 										</h4>
 									 </div>
@@ -198,7 +209,7 @@
 									 <div class="panel-heading">
 										<h4 class="panel-title">
 										  <a data-toggle="collapse" data-parent="#accordion-alt3" href="#collapseFour-alt3">
-											<i class="fa fa-angle-right"></i> <strong style="color:grey;">Stairs - Building</strong>
+											<i class="fa fa-angle-right"></i> <strong style="color:grey;" data-i18n="Stairs">Stairs - Building</strong>
 										  </a>
 										</h4>
 									 </div>
@@ -212,7 +223,7 @@
 									<div class="panel-heading">
 									   <h4 class="panel-title">
 										 <a data-toggle="collapse" data-parent="#accordion-alt3" href="#collapseFive-alt3">
-                                            <i class="fa fa-angle-right"></i> <strong style="color:grey;">Bathroom, Building</strong>
+                                            <i class="fa fa-angle-right"></i> <strong style="color:grey;" data-i18n="bathroom">Bathroom, Building</strong>
                                          </a>
 									   </h4>
 									</div>
@@ -286,91 +297,91 @@
 						<a href="./products.html"  ><img  style="text-align: center;" src="./carousellpics/tiles2.jpg" alt=""  ></a>
                         <br>
                         <p>
-                            <b style="color: white;">- White tiles -</b>
+                            <b style="color: white;" data-i18n="whitwt">- White tiles -</b>
                         </p>
                     </div>
                     <div class="item" id="deutero">
                         <a href="./products.html"  ><img  style="text-align: center;" src="./carousellpics/white slab.jpg" alt="" ></a>
                        <br>
                         <p>
-                            <b style="color: white;">- White slab -</b>
+                            <b style="color: white;" data-i18n="whiteslab">- White slab -</b>
                         </p>
                     </div>
                     <div class="item " id="trito">
                         <a href="./products.html"  ><img  style="text-align: center;" src="./carousellpics/piato.jpg" alt="" ></a>
                         <br>
                         <p>
-                            <b style="color: white;">- Marble plate -</b>
+                            <b style="color: white;" data-i18n="whiteplate">- Marble plate -</b>
                         </p>
                     </div>
                     <div class="item" id="tetarto">
                         <a href="./products.html"  ><img  style="text-align: center;" src="./carousellpics/nestos with black.jpg" alt=""></a>
                          <br>
                            <p>
-                            <b style="color: white;">- Nestos with black -</b>
+                            <b style="color: white;" data-i18n="nestosblack">- Nestos with black -</b>
                         </p>
                     </div>
                     <div class="item" id="pempto">
                         <a href="./products.html"  ><img  style="text-align: center;" src="./carousellpics/mpanio.jpg" alt="" ></a>
                          <br>
                            <p>
-                            <b style="color: white;">- Bathroom -</b>
+                            <b style="color: white;" data-i18n="bathroom2">- Bathroom -</b>
                         </p>
                     </div>
                     <div class="item" id="ekto">
                         <a href="./products.html"  ><img  style="text-align: center;" src="./carousellpics/extra white.jpg" alt="" ></a>
                          <br>
                            <p>
-                            <b style="color: white;">- Extra white -</b>
+                            <b style="color: white;" data-i18n="extrawhites">- Extra white -</b>
                         </p>
                     </div>
                     <div class="item" id="ebdomo">
                         <a href="./products.html"  ><img style="text-align: center;" src="./carousellpics/nestos with pink vains.jpg" alt="" ></a>
                          <br>
                            <p>
-                            <b style="color: white;">- Nestos with pink -</b>
+                            <b style="color: white;" data-i18n="nestospin">- Nestos with pink -</b>
                         </p>
                     </div>
                     <div class="item" id="ogdoo">
                         <a href="./products.html"  ><img style="text-align: center;" src="./carousellpics/marble block1.jpg " alt="" ></a>
                          <br>
                            <p>
-                            <b style="color: white;">- Nestos Marble block -</b>
+                            <b style="color: white;" data-i18n="nestosblackk">- Nestos Marble block -</b>
                         </p>
                     </div>
                     <div class="item" id="enato">
                         <a href="./products.html"  ><img  style="text-align: center;" src="./carousellpics/tiles4.jpg" alt="" ></a>
                          <br>
                            <p>
-                            <b style="color: white;">- White tiles -</b>
+                            <b style="color: white;" data-i18n="whitetiless">- White tiles -</b>
                         </p>
                     </div>
                     <div class="item" id="dekato">
                         <a href="./products.html"  ><img  style="text-align: center;" src="./carousellpics/freel.jpg" alt="" ></a>
                          <br>
                            <p>
-                            <b style="color: white;">- Free length -</b>
+                            <b style="color: white;" data-i18n="freelen">- Free length -</b>
                         </p>
                     </div>
                     <div class="item" id="endekato">
                         <a href="./products.html"  ><img  style="text-align: center;" src="./carousellpics/IMG_3036.jpeg" alt="" ></a>
                          <br>
                            <p>
-                            <b style="color: white;">- Marble block -</b>
+                            <b style="color: white;" data-i18n="marbleblockk">- Marble block -</b>
                         </p>
                     </div>
                     <div class="item" id="dwdekato">
                         <a href="./products.html"  ><img  style="text-align: center;" src="./carousellpics/IMG_3039.jpeg" alt="" ></a>
                          <br>
                            <p>
-                            <b style="color: white;">- Stairs cut in the stripe -</b>
+                            <b style="color: white;" data-i18n="stairscut">- Stairs cut in the stripe -</b>
                         </p>
                     </div>
                     <div class="item" id="dekatotrito">
                         <a href="./products.html"  ><img  style="text-align: center;" src="./carousellpics/IMG_3037.jpeg" alt="" ></a>
                          <br>
                            <p>
-                            <b style="color: white;">- Marble Block -</b>
+                            <b style="color: white;" data-i18n="marbleblockk3">- Marble Block -</b>
                         </p>
                     </div>
                 </div>
@@ -384,16 +395,16 @@
 		<div class="row">
 			<div class="col-lg-3">
 				<div class="widget">
-					<h3 class="widgetheading">Contact </h3>
+					<h3 class="widgetheading" data-i18n="contactt">Contact </h3>
 					<address>
-					<strong >Marble stone dealer</strong> <br>
+					<strong  data-i18n="marblestonede">Marble stone dealer</strong> <br>
 					
-					 Xanthi-Greece</address>
+					 <h3 data-i18n="address">Xanthi-Greece</h3></address>
 					<p>
-						<i class="icon-phone">6947901376</i style="color:black;">  
+						<i class="icon-phone" data-i18n="telephone">6947901376</i style="color:black;">  
                             <br>
                             <br>
-						<i class="icon-envelope-alt"></i style="color:black;"> <a href="mailto:marblekom@gmail.com"><button id="but1" style="color:white; background-color: black;">Sent Email</button></a>		</p>
+						<i class="icon-envelope-alt"></i style="color:black;"> <a href="mailto:marblekom@gmail.com"><button id="but1" style="color:white; background-color: black;" data-i18n="emailsent">Sent Email</button></a>		</p>
 				</div>
 			</div>
 			<!--<div  class="col-lg-3">
@@ -411,19 +422,19 @@
         -->
 			<div class="col-lg-3">
 				<div class="widget">
-					<h3 class="widgetheading">Documents</h3>
+					<h3 class="widgetheading" data-i18n="doc">Documents</h3>
 					<ul class="link-list">
 						
-						<li ><a href="biochelanal.html"><h5>Physical Strength Analysis</h5></a></li>
+						<li ><a href="biochelanal.html"><h5 data-i18n="strengthanalysis">Physical Strength Analysis</h5></a></li>
 					</ul>
 				</div>
 			</div>
 			<div class="col-lg-3">
 				<div class="widget">
-					<h3 class="widgetheading">History</h3>
+					<h3 class="widgetheading" data-i18n="historyy">History</h3>
 					<ul class="link-list">
 						
-						<li ><a href="#"><h5>Quicklink</h5></a></li>
+						<li ><a href="#"><h5 data-i18n="quicklink">Quicklink</h5></a></li>
 					</ul>
 				</div>
 			</div>
@@ -435,7 +446,7 @@
 				<div class="col-lg-6">
 					<div class="copyright">
 						<p>
-							<span>&copy; copyright 2023 - All rights reserved </span><a href="" target="_blank"></a>
+							<span data-i18n="copyright">&copy; Copyright 2025 - All rights reserved </span><a href="" target="_blank"></a>
 						</p>
 					</div>
 				</div>
@@ -454,7 +465,7 @@
 	</div>
    </footer>
 </div>
-<a href="#" class="scrollup"><strong>TOP</strong><i class="fa fa-angle-up active"></i></a>
+<a href="#" class="scrollup"><strong data-i18n="topp">TOP</strong><i class="fa fa-angle-up active"></i></a>
 
 
 <script src="js/jquery.js"></script>
@@ -468,5 +479,46 @@
 <script src="js/animate.js"></script>
 <script src="js/custom.js"></script>
 <script src="js/owl-carousel/owl.carousel.js"></script>
+<script>
+    const selector = document.getElementById("languageSelector");
+
+    // Ανάγνωση παραμέτρου από URL
+    function getURLParam(name) {
+      const params = new URLSearchParams(window.location.search);
+      return params.get(name);
+    }
+
+    // Φόρτωσε γλώσσα από αρχείο JSON
+    function loadLanguage(lang) {
+      fetch(`${lang}.json`)
+        .then(response => response.json())
+        .then(data => {
+          document.querySelectorAll("[data-i18n]").forEach(el => {
+            const key = el.getAttribute("data-i18n");
+            if (data[key]) {
+              el.textContent = data[key];
+            }
+          });
+          // Αποθήκευση επιλογής
+          localStorage.setItem("preferredLang", lang);
+        })
+        .catch(err => console.error("Translation load error:", err));
+    }
+
+    // Αλλαγή γλώσσας
+    selector.addEventListener("change", () => {
+      const lang = selector.value;
+      loadLanguage(lang);
+    });
+
+    // Φόρτωσε προτιμώμενη ή default γλώσσα
+    window.addEventListener("DOMContentLoaded", () => {
+      const urlLang = getURLParam("lang");
+      const storedLang = localStorage.getItem("preferredLang");
+      const langToUse = urlLang || storedLang || "en";
+      selector.value = langToUse;
+      loadLanguage(langToUse);
+    });
+  </script>
 </body>
 </html>
